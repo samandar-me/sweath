@@ -14,6 +14,8 @@
 		FA5CF7BB29561DE000859856 /* iosmvvmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5CF7BA29561DE000859856 /* iosmvvmTests.swift */; };
 		FA5CF7C529561DE000859856 /* iosmvvmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5CF7C429561DE000859856 /* iosmvvmUITests.swift */; };
 		FA5CF7C729561DE000859856 /* iosmvvmUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5CF7C629561DE000859856 /* iosmvvmUITestsLaunchTests.swift */; };
+		FA5CF7D42956206D00859856 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5CF7D32956206D00859856 /* Models.swift */; };
+		FA5CF7D62956208B00859856 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5CF7D52956208B00859856 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		FA5CF7C029561DE000859856 /* iosmvvmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosmvvmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA5CF7C429561DE000859856 /* iosmvvmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosmvvmUITests.swift; sourceTree = "<group>"; };
 		FA5CF7C629561DE000859856 /* iosmvvmUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosmvvmUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FA5CF7D32956206D00859856 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		FA5CF7D52956208B00859856 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				FA5CF7AB29561DDF00859856 /* ContentView.swift */,
 				FA5CF7AD29561DE000859856 /* Assets.xcassets */,
 				FA5CF7AF29561DE000859856 /* Preview Content */,
+				FA5CF7D32956206D00859856 /* Models.swift */,
+				FA5CF7D52956208B00859856 /* ViewModel.swift */,
 			);
 			path = iosmvvm;
 			sourceTree = "<group>";
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA5CF7D42956206D00859856 /* Models.swift in Sources */,
 				FA5CF7AC29561DDF00859856 /* ContentView.swift in Sources */,
+				FA5CF7D62956208B00859856 /* ViewModel.swift in Sources */,
 				FA5CF7AA29561DDF00859856 /* iosmvvmApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

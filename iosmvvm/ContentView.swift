@@ -8,14 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var viewModel = WeatherViewModel()
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        NavigationView {
+            VStack {
+                Text(viewModel.timeZone)
+                    .font(.system(size: 32))
+                    .foregroundColor(.black)
+                Text(viewModel.temp)
+                    .font(.system(size: 44))
+                    .padding(10)
+                    .foregroundColor(.black)
+                Text(viewModel.title)
+                    .font(.system(size: 24))
+                    .foregroundColor(.black)
+                Text(viewModel.description)
+                    .font(.system(size: 24))
+                    .foregroundColor(.black)
+            }
+        }.navigationTitle("First ios app").foregroundColor(.black)
     }
 }
 
